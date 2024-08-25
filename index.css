@@ -41,6 +41,7 @@ footer img {
 footer {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 
 footer a {
@@ -52,10 +53,54 @@ footer p {
     margin-top: 2px;
 }
 
-conteiner {
-    padding: 0px 50px;
-}
-
 nav a:hover {
     color: #4f8fbf
+}
+
+form input,
+form textarea,
+form button {
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    text-align: center;
+}
+
+form button {
+    background-color: #4f8fbf;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #4b69bb;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    justify-content: center;
+    width: 340px;
+}
+
+form {
+    text-align: center;
+    flex-direction: column;
+    height: 100px;
+
+
+}
+
+.OBS {
+    text-align: center;
+}
+
+.container form {
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
